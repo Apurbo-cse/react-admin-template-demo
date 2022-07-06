@@ -36,7 +36,24 @@ const routes = [
   {
     path: "/lodge-claim",
     name: "Lodge a Claim",
-    // icon: <BiAnalyse />,
+    //icon: <BiAnalyse />,
+    subRoutes: [
+      {
+        path: "/lodgeclaim/personal-info",
+        name: "Personal Information",
+        icon: <FaUser />,
+      },
+      {
+        path: "/lodgeclaim/dividend-info",
+        name: "Dividend Information",
+        icon: <FaLock />,
+      },
+      {
+        path: "/lodgeclaim/bank-info",
+        name: "Bank Information",
+        icon: <FaMoneyBill />,
+      },
+    ],
   },
   {
     path: "/reports",

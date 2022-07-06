@@ -7,6 +7,9 @@ import ProfileComponent from "./pages/ProfileComponent";
 import MyClaimComponent from "./pages/MyClaimComponent";
 import AnnualReportComponent from "./pages/AnnualReportComponent";
 import LodgeClaimComponent from "./pages/LodgeClaimComponent";
+import Personalinformation from "./pages/LodgeAclaim/Personalinformation";
+import Dividendinformation from "./pages/LodgeAclaim/Dividendinformation";
+import Bankinformation  from "./pages/LodgeAclaim/Bankinformation";
 import InvestmentComponent from "./pages/InvestmentComponent";
 import HalfYearlyReportComponent from "./pages/HalfYearlyReportComponent";
 import FaqComponent from "./pages/FaqComponent";
@@ -19,6 +22,9 @@ function App() {
           <Route path="/profile" element={<ProfileComponent />} />
           <Route path="/parvej" element={<ProfileComponent />} />
           <Route path="/my-claims" element={<MyClaimComponent />} />
+          <Route path="/lodgeclaim/personal-info" element={<Personalinformation />} />
+          <Route path="/lodgeclaim/dividend-info" element={<Dividendinformation />} />
+          <Route path="/lodgeclaim/bank-info" element={<Bankinformation />} />
           <Route path="/lodge-claim" element={<LodgeClaimComponent />} />
           <Route path="/reports/annual-report" element={<AnnualReportComponent />} />
           <Route path="/investment" element={<InvestmentComponent />} />

@@ -55,16 +55,19 @@ input[type=text], select, textarea{
 
 .button {
 
-	background-color: rgb(239, 245, 242);
-  	padding: 2px;
-  	border: 1px;
+	background-color: rgba(9, 204, 243, 0.612);
+  	padding: 10px;
+  	border: 10px;
   	opacity: 0.9;
     align-self: flex-end ;
+    border-width: 5px;
+    border-color: black;
+    align-items: center;
   
 }
 
 .button:hover{
-  background-color: rgba(42, 241, 7, 0.89);
+  background-color: rgba(9, 247, 92, 0.731);
   opacity: 1;
 }
   

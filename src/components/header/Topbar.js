@@ -3,7 +3,7 @@ import { FaBars, FaUser } from "react-icons/fa";
 
 export default function Topbar(){
 
-    return(<div className="navbar">
+    return(<div className="navbar navbar-default">
 <ul>
 
   
