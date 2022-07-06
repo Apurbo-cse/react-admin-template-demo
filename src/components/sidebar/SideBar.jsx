@@ -209,7 +209,7 @@ const SideBar = ({ children }) => {
         </motion.div>
 
         <main> <Topbar /> {children}
-        <FooterComponent />
+        {/* <FooterComponent /> */}
          </main>
       </div>
     </>
